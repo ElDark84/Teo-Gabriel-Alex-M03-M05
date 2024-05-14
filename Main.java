@@ -1,7 +1,7 @@
 //Bibliotecas
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.io.*;               //Liberia para uso, lectura y escritura en archivos
+import java.util.ArrayList;     //Liberia para uso de Arrays y ArrayList
+import java.util.Scanner;       //Librerai para uso del Scanner
 
 public class Main {
     public static void main(String[] args) {
