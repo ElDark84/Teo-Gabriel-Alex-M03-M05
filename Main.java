@@ -1,6 +1,7 @@
-import java.util.Arrays;// Para tener unas características en algunos arrays
-import java.util.Random;//Para poder generar numeros aleatorios
-import java.util.Scanner;// Para poder generar un scanner
+//Bibliotecas
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
