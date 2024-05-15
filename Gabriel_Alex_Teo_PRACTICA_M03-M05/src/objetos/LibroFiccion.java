@@ -1,5 +1,7 @@
+package objetos;
+
 public class LibroFiccion extends Libro {
-    private int paginas;
+    int paginas;
 
     public LibroFiccion(String titulo, String autor, int paginas) {
         super(titulo, autor);

@@ -1,6 +1,5 @@
 package objetos;
 
-
 public abstract class Libro {
     private String titulo;
     private String autor;
