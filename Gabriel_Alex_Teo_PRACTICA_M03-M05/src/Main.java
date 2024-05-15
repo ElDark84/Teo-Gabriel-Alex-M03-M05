@@ -61,7 +61,7 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) { //GIT TEO
+    public static void main(String[] args) {
         Biblioteca biblioteca = new Biblioteca();
 
         // Agregamos algunos libros de ejemplo
