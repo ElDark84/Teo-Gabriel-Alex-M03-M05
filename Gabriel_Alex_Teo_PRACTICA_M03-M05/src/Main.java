@@ -9,7 +9,7 @@ public class Main {
 }
 
 
-public int mostrarMenu() { //GIT GABRIEL
+public int mostrarMenu() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nMenu Gestión de la Biblioteca:");
         System.out.println("1. Iniciar programa");
