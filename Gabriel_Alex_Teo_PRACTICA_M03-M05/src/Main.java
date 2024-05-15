@@ -61,5 +61,35 @@ public class Main {
         }
     }
 
+    public static void main(String[] args) { //GIT TEO
+        Biblioteca biblioteca = new Biblioteca();
+
+        // Agregamos algunos libros de ejemplo
+        biblioteca.agregarLibro(new LibroFiccion("El Señor de los Anillos", "J.R.R. Tolkien", 1000));
+        biblioteca.agregarLibro(new LibroNoFiccion("Historia del Arte", "E.H. Gombrich", "Arte"));
+
+        int opcion;
+        do {
+            opcion = biblioteca.mostrarMenu();
+            switch (opcion) {
+                case 1:
+                    // Mostramos los libros disponibles
+                    biblioteca.mostrarLibros();
+
+                    // Seleccionamos un libro al principio
+                    biblioteca.seleccionarLibro();
+
+                    // Ejemplo de lectura de entrada por consola y actualización del archivo
+                    biblioteca.leerEntradaPorConsola();
+                    break;
+                case 2:
+                    System.out.println("\nSaliendo del programa...");
+                    break;
+                default:
+                    System.out.println("Opción no válida. Inténtalo de nuevo.");
+            }
+        } while (opcion != 2);
+    }
+
 }
 
