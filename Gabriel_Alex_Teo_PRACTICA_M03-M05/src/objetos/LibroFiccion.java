@@ -12,3 +12,10 @@ public class LibroFiccion extends Libro {
         return paginas * 0.1;
     }
 }
+
+public void mostrarLibros() {
+        System.out.println("\nLibros disponibles:");
+        for (Libro libro : librosDisponibles) {
+            System.out.println(libro.getTitulo() + " (" + libro.getAutor() + ")");
+        }
+    }
