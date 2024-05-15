@@ -8,7 +8,12 @@ public class Main {
     }
 }
 
+public void seleccionarLibro() { //GIT TEO
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("\nIntroduce el título del libro que deseas prestar: ");
+    String tituloLibro = scanner.nextLine();
 
+<<<<<<< Updated upstream
 public int mostrarMenu() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nMenu Gestión de la Biblioteca:");
@@ -32,3 +37,15 @@ public int mostrarMenu() {
     }
 
 
+=======
+    for (Libro libro : librosDisponibles) {
+        if (libro.getTitulo().equalsIgnoreCase(tituloLibro)) {
+            libroSeleccionado = libro;
+            System.out.println("Libro seleccionado: " + libro.getTitulo());
+            return;
+        }
+    }
+
+    System.out.println("Libro no encontrado en la biblioteca.");
+}
+>>>>>>> Stashed changes
