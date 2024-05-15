@@ -11,14 +11,4 @@ public class LibroFiccion extends Libro {
         // Precio base para libros de ficción
         return paginas * 0.1;
     }
-public void mostrarLibros() { //GIT GABRIEL
-        System.out.println("\nLibros disponibles:");
-        for (Libro libro : librosDisponibles) {
-            System.out.println(libro.getTitulo() + " (" + libro.getAutor() + ")");
-        }
-    }
-
 }
-
-
-
