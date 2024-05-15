@@ -18,5 +18,23 @@ public class Main {
         }
     }
 
+    
+    //Método para seleccionar un libro al principio
+    public void seleccionarLibro() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("\nIntroduce el título del libro que deseas prestar: ");
+        String tituloLibro = scanner.nextLine();
+
+        for (Libro libro : librosDisponibles) {
+            if (libro.getTitulo().equalsIgnoreCase(tituloLibro)) {
+                libroSeleccionado = libro;
+                System.out.println("Libro seleccionado: " + libro.getTitulo());
+                return;
+            }
+        }
+
+        System.out.println("Libro no encontrado en la biblioteca.");
+    }
+
 }
 
