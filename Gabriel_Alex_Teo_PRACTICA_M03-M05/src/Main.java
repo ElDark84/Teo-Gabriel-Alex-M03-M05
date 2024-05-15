@@ -57,7 +57,7 @@ public class Main {
             escritor.close();
             System.out.println("\nInformación de préstamo actualizada en prestamos/prestamos.txt");
         } catch (IOException e) {
-            System.err.println("\nError al escribir el archivo: " + e.getMessage());
+            System.out.println("\nError al escribir el archivo: " + e.getMessage());
         }
     }
 
