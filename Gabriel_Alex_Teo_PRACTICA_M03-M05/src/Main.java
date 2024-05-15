@@ -31,4 +31,11 @@ public int mostrarMenu() {
         }
     }
 
+public void mostrarLibros() {
+        System.out.println("\nLibros disponibles:");
+        for (Libro libro : librosDisponibles) {
+            System.out.println(libro.getTitulo() + " (" + libro.getAutor() + ")");
+        }
+    }
+
 
