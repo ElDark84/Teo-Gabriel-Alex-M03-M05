@@ -1,6 +1,6 @@
 package objetos;
 
-public class LibroNoFiccion extends Libro { //GIT TEO
+public class LibroNoFiccion extends Libro { // Hereda de la clase Libro
     public String tema;
 
     public LibroNoFiccion(String titulo, String autor, String tema) {
