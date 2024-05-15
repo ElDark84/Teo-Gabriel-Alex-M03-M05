@@ -1,7 +1,7 @@
 import java.io.*;               //Liberia para uso, lectura y escritura en archivos
 import java.util.ArrayList;     //Liberia para uso de Arrays y ArrayList
-import java.util.Scanner;      
-import objetos.*; //Liberia para uso de Scanner
+import java.util.Scanner;       //Liberia para uso de Scanner
+import objetos.*;
 
 public class Main {
     private ArrayList<Libro> librosDisponibles = new ArrayList<>();
