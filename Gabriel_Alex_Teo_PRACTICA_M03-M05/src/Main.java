@@ -103,7 +103,7 @@ public class Main {
         biblioteca.agregarLibro(new LibroNoFiccion("El problema de los tres cuerpos", "Cixin Liu", "Ciencia"));
         biblioteca.agregarLibro(new LibroFiccion("Fahrenheit 45", "Ray Bradbury", 176));
         biblioteca.agregarLibro(new LibroNoFiccion("El arte de la guerra", "Sun Tzu", "Filosofía"));
-        biblioteca.agregarLibro(new LibroFiccion("El Codigo Da Vinci ", "Dan Brown", 624));
+        biblioteca.agregarLibro(new LibroFiccion("El Codigo Da Vinci", "Dan Brown", 624));
         biblioteca.agregarLibro(new LibroNoFiccion("El poder del ahora", "Eckhart Tolle", "Autoayuda"));
         biblioteca.agregarLibro(new LibroFiccion("El Hobbit", "J.R.R. Tolkien", 288));
         biblioteca.agregarLibro(new LibroNoFiccion("El hombre en busca de sentido", "Viktor Frankl", "Psicología"));
