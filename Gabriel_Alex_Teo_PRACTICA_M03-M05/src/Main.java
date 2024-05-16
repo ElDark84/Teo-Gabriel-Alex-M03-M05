@@ -95,6 +95,19 @@ public class Main {
         biblioteca.agregarLibro(new LibroNoFiccion("Historia del Arte", "E.H. Gombrich", "Arte"));
         biblioteca.agregarLibro(new LibroNoFiccion("Kamasutra", "India", "Cultura"));
         biblioteca.agregarLibro(new LibroFiccion("El Senior de los Anillos", "J.K.Rowling", 903));
+        biblioteca.agregarLibro(new LibroFiccion("La Guerra de los Mundos", "H.G. Wells", 216));
+        biblioteca.agregarLibro(new LibroNoFiccion("Sapiens: De Animales a Dioses", "Yuval Noaḥ Harari", "Historia"));
+        biblioteca.agregarLibro(new LibroFiccion("1984", "George Orwell", 352));
+        biblioteca.agregarLibro(new LibroNoFiccion("El Origen de las Especies", "Charles Darwin", "Ciencia"));
+        biblioteca.agregarLibro(new LibroFiccion("Cien años de soledad", "Gabriel García Márquez", 496));
+        biblioteca.agregarLibro(new LibroNoFiccion("El problema de los tres cuerpos", "Cixin Liu", "Ciencia"));
+        biblioteca.agregarLibro(new LibroFiccion("Fahrenheit 45", "Ray Bradbury", 176));
+        biblioteca.agregarLibro(new LibroNoFiccion("El arte de la guerra", "Sun Tzu", "Filosofía"));
+        biblioteca.agregarLibro(new LibroFiccion("El Codigo Da Vinci ", "Dan Brown", 624));
+        biblioteca.agregarLibro(new LibroNoFiccion("El poder del ahora", "Eckhart Tolle", "Autoayuda"));
+        biblioteca.agregarLibro(new LibroFiccion("El Hobbit", "J.R.R. Tolkien", 288));
+        biblioteca.agregarLibro(new LibroNoFiccion("El hombre en busca de sentido", "Viktor Frankl", "Psicología"));
+        biblioteca.agregarLibro(new LibroFiccion("El arte de la seducción", "Robert Green", 512));
 
         int opcion;
         do {
