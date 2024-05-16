@@ -2,7 +2,7 @@
 
 ## Autores: Teo Aranda, Gabriel Perez y Alex Jiménez
 
-### Comentarios codigo:
+### Comentarios codigo
   - **_class abstract Libro_**: en esta clase abstracta tenemos definido el _título_, el _autor_ y el _metodo para calcular el precio_ del libro.
   - **_class LibroFiccion_**: tenemos definido el _título_, el _autor_, sus _páginas_ y su _precio_.
   - **_classLibroNoFiccion_**: tenemos definido el _título_, el _autor_, el _tema_ y su _precio_. 
