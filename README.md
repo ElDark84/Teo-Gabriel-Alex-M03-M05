@@ -4,7 +4,7 @@
 - **_class abstract Libro_**: en esta clase abstracta tenemos definido el _título_, el _autor_ y el _metodo para calcular el precio del libro_.
 - **_class LibroFiccion_**: tenemos definido el _título_, el _autor_, sus _páginas_ y su _precio_.
 - **_classLibroNoFiccion_**: tenemos definido el _título_, el _autor_, el _tema_ y su _precio_.
-- **_Main_**: tenemos definido los métodos:
+- **_Main_**: tenemos definido los siguientes métodos:
     - **_agregarLibro_**
     - **_mostrarLibros_**
     - **_seleccionarLibro_**
